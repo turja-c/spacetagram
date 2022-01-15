@@ -1,4 +1,5 @@
 import React, {useState, useEffect} from 'react'
+import Index from './Index';
 import ImageComponent from './ImageComponent';
 // import {ImageWrapper, Image, InfoWrapper, TextWrapper, ImageTitle, ImageDate, Description} from "./styles";
 
@@ -28,6 +29,8 @@ export default function FetchData() {
             {post.map((image, index) => {
                     if (image.media_type === 'image') {
                         return <ImageComponent image={image} key={index} />
+                        return <Index image={image} key={index}/>
+                        // <index image={image} key={index} />
                     }
                 })}
         </div>
