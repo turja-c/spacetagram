@@ -1,7 +1,5 @@
 import React, {useState, useEffect} from 'react'
-import Index from './Index';
-import ImageComponent from './ImageComponent';
-// import {ImageWrapper, Image, InfoWrapper, TextWrapper, ImageTitle, ImageDate, Description} from "./styles";
+import IndexPage from './IndexImage';
 
 const nasaBaseURL = 'https://api.nasa.gov/planetary/apod?api_key=fmaIp5xfWQkbEMtSCidAwJGirzfX2wHsu0fQSoV2&count=100'
 
@@ -28,8 +26,7 @@ export default function FetchData() {
         <div>
             {post.map((image, index) => {
                     if (image.media_type === 'image') {
-                        return <ImageComponent image={image} key={index} />
-                        return <Index image={image} key={index}/>
+                        return <IndexPage image={image} key={index}/>
                         // <index image={image} key={index} />
                     }
                 })}
