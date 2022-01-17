@@ -2,12 +2,12 @@ import React from 'react';
 import StarfieldAnimation from 'react-starfield-animation';
 import { EntrancePageTitle, EntrancePageCard, Wrapper, EntrancePageMainTitle } from '../components/NewStyles';
 
-export default function EntrancePage() {
+export default function LoadingPage() {
     return (     
         <Wrapper >
             <EntrancePageCard>
                 {/* <EntrancePageTitle>Hi there! 👋🏽</EntrancePageTitle> */}
-                <EntrancePageMainTitle>BLAST OFF</EntrancePageMainTitle>
+                <EntrancePageMainTitle>LOADING</EntrancePageMainTitle>
             </EntrancePageCard>
             
         <StarfieldAnimation

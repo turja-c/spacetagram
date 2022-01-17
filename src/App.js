@@ -2,6 +2,7 @@ import './App.css';
 import React from 'react';
 import FetchData from './components/FetchData';
 import EntrancePage from './pages/EntrancePage';
+import BlastOff from './pages/BlastOff';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
      <FetchData />
      {/* <EntrancePage /> */}
+     {/* <BlastOff /> */}
     </div>
   );
 }

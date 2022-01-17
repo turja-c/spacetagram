@@ -1,15 +1,15 @@
 import React, { useState } from 'react'
-import { MainPost, PostImage } from './NewStyles'
+import { MainPostCard, PostImage, PostTitle, PostDate, PostDescription } from './NewStyles'
 
 export default function IndexImage({image}) {
 
     return (
-        <MainPost>
-            <h1>{image.title}</h1>
-            <h2>{image.date}</h2>
+        <MainPostCard>
+            <PostTitle>{image.title}</PostTitle>
+            <PostDate>{image.date}</PostDate>
             <PostImage src={image.url}/>
-            <h2>{image.explanation}</h2>
-        </MainPost>
+            <PostDescription>{(image.explanation).slice(0,300)}...</PostDescription>
+        </MainPostCard>
     )
 }
 
