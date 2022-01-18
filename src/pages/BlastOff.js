@@ -1,6 +1,4 @@
 import React from 'react'
-import StarfieldAnimation from 'react-starfield-animation';
-import IndexImage from '../components/IndexImage';
 import FetchData from '../components/FetchData';
 import { EntranceTitle, EntranceSubTitle} from '../components/NewStyles';
 

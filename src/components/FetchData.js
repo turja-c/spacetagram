@@ -32,7 +32,6 @@ export default function FetchData() {
             {post.map((image, index) => {
                     if (image.media_type === 'image') {
                         return <IndexPage image={image} key={index}/>
-                        // <index image={image} key={index} />
                     }
                 })}
                 

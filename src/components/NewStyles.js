@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { Box, Image } from '@chakra-ui/react'
-import StarfieldAnimation from 'react-starfield-animation';
 
 export const MainPostCard = styled(Box)`
     width: 350px;
