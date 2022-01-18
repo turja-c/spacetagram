@@ -36,13 +36,18 @@ export default function FetchData() {
                     }
                 })}
                 
-            {/* <StarfieldAnimation
+            <StarfieldAnimation
                 style={{
-                position: 'absolute',
-                width: '100%',
-                height: '100%'
+                    position: 'fixed',
+                    zIndex: -1,
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    bottom: 0,
+                    height: 'auto',
+                    backgroundColor: '#000'
                 }}
-            /> */}
+            />
         </Wrapper>
         </div>
         :

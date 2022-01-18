@@ -1,14 +1,14 @@
 import React from 'react';
 import StarfieldAnimation from 'react-starfield-animation';
-import { EntrancePageTitle, EntrancePageCard, Wrapper, EntrancePageMainTitle } from '../components/NewStyles';
+import {  EntranceLoading, Wrapper } from '../components/NewStyles';
+import { Wave } from 'react-animated-text';
 
 export default function LoadingPage() {
     return (     
         <Wrapper >
-            <EntrancePageCard>
-                {/* <EntrancePageTitle>Hi there! 👋🏽</EntrancePageTitle> */}
-                <EntrancePageMainTitle>LOADING</EntrancePageMainTitle>
-            </EntrancePageCard>
+            <EntranceLoading>
+                <Wave text="BLASTING OFF" effect="stretch" effectChange={2.0} />
+            </EntranceLoading>
             
         <StarfieldAnimation
                 style={{

@@ -21,32 +21,42 @@ export const PostImage = styled(Image)`
 
 `;
 
-export const PostTitle = styled.h1`
-    font-size: 20px;
+export const PostTitle = styled.h2`
+    font-size: 22px;
     align-items: left;
     justify-content: left;
     align-items: flex-start;
+    text-align: left;
+    padding-left: 10px;
 `;
 
-export const PostDescription = styled.h1`
+export const PostDescription = styled.p`
     font-size: 15px;
     align-items: left;
     font-family: "Ubuntu", sans-serif;
-    padding: 0 12px 0 12px;
+    padding: 0 15px 0 12px;
     justify-content: left;
+    text-align: left;
+    margin-bottom: -1rem;
+    margin-top: 1rem;
 `;
 
-export const PostDate = styled.h3`
-    font-size: 15px;
+export const PostDate = styled.p`
+    font-size: 14px;
     align-items: flex-start;
-    font-family: "Ubuntu", sans-serif;
-    padding: 0 12px 0 12px;
+    font-family: 'Sintony', sans-serif;    
+    padding: 10px 10px 0 12px;
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 1rem;
+    margin-top: -1.2rem;
 `;
 
 export const Wrapper = styled.div`
     display: flex;
     align-items: center;
     flex-direction: column;
+    // background-color: #000;
 `;
 
 
@@ -57,20 +67,22 @@ export const EntrancePageTitle = styled.h1`
     justify-content: left;
 `;
 
-export const EntrancePageMainTitle = styled.h1`
+export const EntranceTitle = styled.h1`
     font-size: 70px;
-    align-items: left;
-    justify-content: left;
     margin-top: 30px;
+    font-family: 'Neonderthaw', cursive;
+    color: #fff;
 `;
 
-export const EntrancePageCard = styled(Box)`
-    width: 500px;
-    height: 150px;
-    margin-top: 20rem;
-    font-family: "Ubuntu", sans-serif;
-    display: flex;
-    flex-direction: column;
-    background-color: #FFFFFF;
-    border-radius: 1rem;
+export const EntranceSubTitle = styled.h1`
+    font-size: 20px;
+    font-family: 'Sintony', sans-serif;    
+    color: #fff;
+`;
+
+export const EntranceLoading = styled.h1`
+    font-size: 60px;
+    font-family: 'Holtwood One SC', serif;    
+    color: #fff;
+    margin-top: 8rem; 
 `;
