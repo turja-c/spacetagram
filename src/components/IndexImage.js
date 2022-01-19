@@ -7,6 +7,7 @@ export default function IndexImage({image}) {
     const [liked, setLiked] = useState(false);
     return (
         <div>
+            
         <MainPostCard>
             <PostTitle>{image.title}</PostTitle>
             <PostDate>{image.date}</PostDate>

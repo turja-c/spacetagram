@@ -10,8 +10,6 @@ export const MainPostCard = styled(Box)`
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 2px 2px 0;
-    // justify-content: center;
-    // align-items: center;
 `;
 
 export const PostImage = styled(Image)`
@@ -21,12 +19,13 @@ export const PostImage = styled(Image)`
 `;
 
 export const PostTitle = styled.h2`
-    font-size: 22px;
+    font-size: 20px;
     align-items: left;
     justify-content: left;
     align-items: flex-start;
     text-align: left;
     padding-left: 10px;
+    padding-right: 2px;
 `;
 
 export const PostDescription = styled.p`
@@ -74,14 +73,16 @@ export const EntranceTitle = styled.h1`
 `;
 
 export const EntranceSubTitle = styled.h1`
-    font-size: 20px;
-    font-family: 'Sintony', sans-serif;    
+    font-size: 25px;
+    font-family: 'Poiret One', cursive;
     color: #fff;
+    margin-top: 5px;
 `;
 
 export const EntranceLoading = styled.h1`
     font-size: 60px;
     font-family: 'Holtwood One SC', serif;    
     color: #fff;
-    margin-top: 8rem; 
+    text-align: center;
+    margin-top: 20rem;
 `;

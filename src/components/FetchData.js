@@ -3,6 +3,7 @@ import IndexPage from './IndexImage';
 import { Wrapper } from './NewStyles';
 import StarfieldAnimation from 'react-starfield-animation';
 import LoadingPage from '../pages/LoadingPage';
+import { EntranceTitle, EntranceSubTitle} from '../components/NewStyles';
 
 const nasaBaseURL = 'https://api.nasa.gov/planetary/apod?api_key=fmaIp5xfWQkbEMtSCidAwJGirzfX2wHsu0fQSoV2&count=100'
 
@@ -28,6 +29,9 @@ export default function FetchData() {
         loading ?
         <div>
         <Wrapper>
+            
+            <EntranceTitle>Spacetagram</EntranceTitle>
+            <EntranceSubTitle>Brought to you by NASA's awesome API</EntranceSubTitle>
             
             {post.map((image, index) => {
                     if (image.media_type === 'image') {
