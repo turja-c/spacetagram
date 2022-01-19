@@ -1,6 +1,6 @@
 # Spacetagram (🪐, 🪐)
 
-Take a peek 👀 - Here's the [Live Demo](https://sthenic-smile.000webhostapp.com/index.html/ "Spacetagram - Turja")
+Take a peek 👀 - Here's the [Live Demo](https://romantic-lamport-ab9490.netlify.app// "Spacetagram - Turja")
 
 ## What's it All About? ##
 This was created for Shopify's Summer 2022 Summer Internship challenge! The web application leverages NASA's Planetary API to provide an instagram approach to view, like, share and learn about everything beyond our atmosphere. 
